@@ -1,0 +1,67 @@
+#================================================================================
+#RESUMEN DE REQUERIMIENTOS DE ANÁLISIS (Word2Vec, BETO y Comparativa)
+#================================================================================
+
+#5. ANÁLISIS REQUERIDOS
+
+#--------------------------------------------------------------------------------
+#5.1 ANÁLISIS CON WORD2VEC
+#--------------------------------------------------------------------------------
+#1. Campos semánticos por tipo de lugar y polaridad:
+ #  - Entrenar Word2Vec sobre el corpus.
+  # - Descubrir clusters temáticos dominantes (naturaleza, servicio, precio,
+   #  limpieza, comida, ubicación).
+   #- Utilizar `most_similar()` para explorar vecinos semánticos de palabras
+    # clave ("vista", "atención", "sucio", "delicioso").
+
+#2. Analogías vectoriales:
+ #  - Probar analogías en el dominio turístico (ej. hotel - habitación + plato ≈ ?).
+ #  - Documentar y analizar al menos 5 analogías (éxitos y fallos).
+
+#3. Similitud entre categorías:
+ #  - Calcular el vector promedio (centroide) por tipo de lugar (parque/hotel/restaurante)
+ #    y polaridad (positiva/negativa).
+ #  - Medir distancia coseno entre ellos para determinar cuáles son más similares.
+
+#4. Vocabulario exclusivo:
+ #  - Identificar palabras características de cada categoría o polaridad según su
+ #    posición en el espacio vectorial (términos cercanos al centroide).
+
+#--------------------------------------------------------------------------------
+#5.2 ANÁLISIS CON BETO
+#--------------------------------------------------------------------------------
+#1. Polisemia contextual:
+ #  - Seleccionar al menos 5 palabras polisémicas ("rico", "fresco", "caro",
+ #    "atención", "ambiente", "vista").
+ #  - Demostrar la asignación de embeddings contextuales diferentes según el tipo
+ #    de reseña.
+
+#2. Búsqueda semántica de reseñas:
+ #  - Generar embeddings de reseñas completas (token [CLS] o promedio de tokens).
+ #  - Construir un buscador semántico que retorne las reseñas más similares a
+ #    una consulta en lenguaje natural.
+
+#3. Masked Language Model (MLM):
+#   - Evaluar predicciones de palabras enmascaradas (`[MASK]`) en frases típicas
+#     de cada categoría y polaridad.
+
+#--------------------------------------------------------------------------------
+#5.3 COMPARACIÓN: BoW vs. WORD2VEC vs. BETO
+#--------------------------------------------------------------------------------
+#Realizar una evaluación cuantitativa y cualitativa comparando las 3 representaciones:
+
+#1. Tarea de Clasificación:
+ #  - Entrenar un clasificador simple (Logistic Regression o KNN) con cada embedding.
+ #  - Comparar Accuracy para predecir:
+ #    a) Polaridad (positiva / negativa).
+ #    b) Tipo de lugar.
+
+#2. Clustering:
+ #  - Aplicar K-Means con cada representación.
+ #  - Evaluar con Silhouette Score la coherencia de los clusters vs. las
+ #    categorías reales.
+
+#3. Visualización t-SNE:
+ #  - Crear proyecciones 2D de las reseñas con cada representación.
+ #  - Comparar visualmente la separación por tipo de lugar y polaridad.
+#================================================================================
