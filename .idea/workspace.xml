@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76a8b2c3-8bdb-4724-b715-b9ff904629c6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/00_limpieza_datos.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/00_limpieza_datos.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/02_web_scraping.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/02_web_scraping.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/01_migracion_mongodb.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/01_migracion_mongodb.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/03_word2vec_analisis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/03_word2vec_analisis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/db_manager.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,20 +32,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "staging",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/monic/Documents/CUC/Mineria de Textos/An-lisis-Sem-ntico-de-Rese-as-Tur-sticas-de-Costa-Rica-",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;staging&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/monic/Documents/CUC/Mineria de Textos/An-lisis-Sem-ntico-de-Rese-as-Tur-sticas-de-Costa-Rica-&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
