@@ -1,3 +1,19 @@
+# Para el desarrollo de este proyecto se utilizaron diferentes herramientas y
+# tecnologías orientadas al procesamiento y análisis semántico de reseñas
+# turísticas. MongoDB Community/Atlas se empleó para el almacenamiento del corpus
+# y PyMongo para la conexión entre Python y la base de datos. El entrenamiento del
+# modelo Word2Vec se realizó con Gensim, mientras que el análisis contextual con
+# BETO se implementó mediante la librería Transformers de Hugging Face utilizando
+# PyTorch como backend. Las técnicas de representación de texto (BoW y TF-IDF),
+# aprendizaje automático y reducción de dimensionalidad (t-SNE) se desarrollaron
+# con Scikit-learn. Para la obtención de datos se utilizó la librería Requests. El
+# preprocesamiento del texto se realizó con spaCy (modelo es_core_news_md) y NLTK,
+# mientras que la manipulación de datos y la generación de gráficos se apoyó en
+# Pandas, NumPy y Matplotlib. Finalmente, el dashboard interactivo fue
+# desarrollado utilizando Plotly y Das
+
+#dash gensim matplotlib nltk numpy pandas plotly pymongo requests scikit-learn spacy torch transformers
+
 #================================================================================
 #RESUMEN DE REQUERIMIENTOS DE ANÁLISIS (Word2Vec, BETO y Comparativa)
 #================================================================================
